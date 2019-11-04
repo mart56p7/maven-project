@@ -1,3 +1,8 @@
+/**
+ * This is a package
+ * @author mkn
+ * @version 1.0
+ */
 package com.example;
 
 /**
@@ -12,8 +17,10 @@ public class Greeter {
 
   }
 
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
+  /**
+   * My greeter function
+   * */
+  public final String greet(String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
